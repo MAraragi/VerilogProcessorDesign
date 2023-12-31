@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1654355674">
+  <File Type="PA-TCL" Name="Top.tcl"/>
+  <File Type="REPORTS-TCL" Name="Top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Top.vds"/>
+  <File Type="RDS-UTIL" Name="Top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Top.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/IO.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/MIPS.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PipelineProcessor/PipelineProcessor.srcs/sources_1/new/MIPS.sv"/>
+        <Attr Name="ImportTime" Val="1654331493"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/adder.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PipelineProcessor/PipelineProcessor.srcs/sources_1/new/adder.sv"/>
+        <Attr Name="ImportTime" Val="1654328368"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/alu.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PipelineProcessor/PipelineProcessor.srcs/sources_1/new/alu.sv"/>
+        <Attr Name="ImportTime" Val="1654328270"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/aludec.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PipelineProcessor/PipelineProcessor.srcs/sources_1/new/aludec.sv"/>
+        <Attr Name="ImportTime" Val="1654324040"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/controller.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PipelineProcessor/PipelineProcessor.srcs/sources_1/new/controller.sv"/>
+        <Attr Name="ImportTime" Val="1654324281"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/dMem.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PipelineProcessor/PipelineProcessor.srcs/sources_1/new/dMem.sv"/>
+        <Attr Name="ImportTime" Val="1654331080"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/dMemoryDecoder.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/datapath.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PipelineProcessor/PipelineProcessor.srcs/sources_1/new/datapath.sv"/>
+        <Attr Name="ImportTime" Val="1654332013"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/eqcmp.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PipelineProcessor/PipelineProcessor.srcs/sources_1/new/eqcmp.sv"/>
+        <Attr Name="ImportTime" Val="1654329272"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/flopenr.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PipelineProcessor/PipelineProcessor.srcs/sources_1/new/flopenr.sv"/>
+        <Attr Name="ImportTime" Val="1654329767"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/flopenrc.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PipelineProcessor/PipelineProcessor.srcs/sources_1/new/flopenrc.sv"/>
+        <Attr Name="ImportTime" Val="1654330130"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/flopr.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PipelineProcessor/PipelineProcessor.srcs/sources_1/new/flopr.sv"/>
+        <Attr Name="ImportTime" Val="1654324208"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/floprc.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PipelineProcessor/PipelineProcessor.srcs/sources_1/new/floprc.sv"/>
+        <Attr Name="ImportTime" Val="1654324479"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/hazard.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PipelineProcessor/PipelineProcessor.srcs/sources_1/new/hazard.sv"/>
+        <Attr Name="ImportTime" Val="1654328014"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/iMem.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PipelineProcessor/PipelineProcessor.srcs/sources_1/new/iMem.sv"/>
+        <Attr Name="ImportTime" Val="1654330909"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/maindec.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PipelineProcessor/PipelineProcessor.srcs/sources_1/new/maindec.sv"/>
+        <Attr Name="ImportTime" Val="1654323808"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mux2.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PipelineProcessor/PipelineProcessor.srcs/sources_1/new/mux2.sv"/>
+        <Attr Name="ImportTime" Val="1654329873"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mux3.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PipelineProcessor/PipelineProcessor.srcs/sources_1/new/mux3.sv"/>
+        <Attr Name="ImportTime" Val="1654330266"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux7seg.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/regfile.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PipelineProcessor/PipelineProcessor.srcs/sources_1/new/regfile.sv"/>
+        <Attr Name="ImportTime" Val="1654328670"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/signext.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PipelineProcessor/PipelineProcessor.srcs/sources_1/new/signext.sv"/>
+        <Attr Name="ImportTime" Val="1654329582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/sl2.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PipelineProcessor/PipelineProcessor.srcs/sources_1/new/sl2.sv"/>
+        <Attr Name="ImportTime" Val="1654329481"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/zeroext.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Top.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PipelineProcessor/PipelineProcessor.srcs/sources_1/new/Top.sv"/>
+        <Attr Name="ImportTime" Val="1654322334"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/memfile1.dat">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/admin/Desktop/memfile1.dat"/>
+        <Attr Name="ImportTime" Val="1651673798"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Desktop/Nexys4DDR.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/admin/Desktop/Nexys4DDR.xdc"/>
+        <Attr Name="ImportTime" Val="1648652555"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

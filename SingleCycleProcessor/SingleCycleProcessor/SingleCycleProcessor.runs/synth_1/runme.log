@@ -1,0 +1,102 @@
+
+*** Running vivado
+    with args -log Top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source Top.tcl -notrace
+Command: synth_design -top Top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 37516 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 339.258 ; gain = 93.750
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Top' [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/Top.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'imem' [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/imem.sv:2]
+INFO: [Synth 8-3876] $readmem data file 'memfile2.dat' is read successfully [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/imem.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'imem' (1#1) [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/imem.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'mips' [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/mips.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'controller' [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/controller.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'maindec' [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/maindec.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'maindec' (2#1) [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/maindec.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'aludec' [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/aludec.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'aludec' (3#1) [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/aludec.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'controller' (4#1) [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/controller.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'datapath' [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/datapath.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'flopr' [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/flopr.sv:2]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'flopr' (5#1) [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/flopr.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'adder' [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/adder.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'adder' (6#1) [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/adder.sv:2]
+INFO: [Synth 8-6157] synthesizing module 's12' [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/s12.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 's12' (7#1) [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/s12.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/mux2.sv:2]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (8#1) [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/mux2.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/regfile.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (9#1) [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/regfile.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'mux2__parameterized0' [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/mux2.sv:2]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2__parameterized0' (9#1) [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/mux2.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'signext' [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/signext.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'signext' (10#1) [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/signext.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'unsignext' [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/unsignext.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'unsignext' (11#1) [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/unsignext.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'alu' [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/alu.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (12#1) [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/alu.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'datapath' (13#1) [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/datapath.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'mips' (14#1) [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/mips.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'dMemoryDecoder' [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/imports/Desktop/dMemoryDecoder.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'dmem' [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/dmem.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'dmem' (15#1) [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/dmem.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'IO' [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/IO.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'IO' (16#1) [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/IO.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'mux7seg' [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/mux7seg.sv:2]
+INFO: [Synth 8-226] default block is never used [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/mux7seg.sv:15]
+INFO: [Synth 8-226] default block is never used [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/mux7seg.sv:28]
+INFO: [Synth 8-226] default block is never used [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/mux7seg.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'mux7seg' (17#1) [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/mux7seg.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'dMemoryDecoder' (18#1) [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/imports/Desktop/dMemoryDecoder.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'Top' (19#1) [D:/Subjects/计算机组成与体系结构/实验项目/实验一_单周期MIPS处理器/SingleCycleProcessor/SingleCycleProcessor.srcs/sources_1/new/Top.sv:2]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[31]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[30]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[29]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[28]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[27]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[26]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[25]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[24]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[23]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[22]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[21]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[20]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[19]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[18]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[17]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[16]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[15]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[14]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[13]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[12]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[11]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[10]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[9]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[8]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[1]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[0]
+WARNING: [Synth 8-3331] design s12 has unconnected port a[31]
+WARNING: [Synth 8-3331] design s12 has unconnected port a[30]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[31]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[30]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[29]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[28]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[27]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[26]
+TclStackFree: incorrect freePtr. Call out of sequence?

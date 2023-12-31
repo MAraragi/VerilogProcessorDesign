@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../PipelineProcessor.srcs/sources_1/new/MIPS.sv" \
+"../../../../PipelineProcessor.srcs/sources_1/new/Top.sv" \
+"../../../../PipelineProcessor.srcs/sources_1/new/adder.sv" \
+"../../../../PipelineProcessor.srcs/sources_1/new/alu.sv" \
+"../../../../PipelineProcessor.srcs/sources_1/new/aludec.sv" \
+"../../../../PipelineProcessor.srcs/sources_1/new/controller.sv" \
+"../../../../PipelineProcessor.srcs/sources_1/new/dMem.sv" \
+"../../../../PipelineProcessor.srcs/sources_1/new/datapath.sv" \
+"../../../../PipelineProcessor.srcs/sources_1/new/eqcmp.sv" \
+"../../../../PipelineProcessor.srcs/sources_1/new/flopenr.sv" \
+"../../../../PipelineProcessor.srcs/sources_1/new/flopenrc.sv" \
+"../../../../PipelineProcessor.srcs/sources_1/new/flopr.sv" \
+"../../../../PipelineProcessor.srcs/sources_1/new/floprc.sv" \
+"../../../../PipelineProcessor.srcs/sources_1/new/hazard.sv" \
+"../../../../PipelineProcessor.srcs/sources_1/new/iMem.sv" \
+"../../../../PipelineProcessor.srcs/sources_1/new/maindec.sv" \
+"../../../../PipelineProcessor.srcs/sources_1/new/mux2.sv" \
+"../../../../PipelineProcessor.srcs/sources_1/new/mux3.sv" \
+"../../../../PipelineProcessor.srcs/sources_1/new/regfile.sv" \
+"../../../../PipelineProcessor.srcs/sources_1/new/signext.sv" \
+"../../../../PipelineProcessor.srcs/sources_1/new/sl2.sv" \
+"../../../../PipelineProcessor.srcs/sim_1/new/testbench.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

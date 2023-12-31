@@ -1,0 +1,9 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/Sources/repos/SingleCycleProcessor/SingleCycleProcessor.sim/sim_1/synth/func/xsim/testbench_func_synth.v,1648570147,verilog,,,,adder;adder_0;alu;datapath;flopr;glbl;mips;regfile,,,,,,,,
+D:/Sources/repos/SingleCycleProcessor/SingleCycleProcessor.srcs/sim_1/new/dmem.sv,1648482066,systemVerilog,,D:/Sources/repos/SingleCycleProcessor/SingleCycleProcessor.srcs/sim_1/new/imem.sv,,dmem,,,,,,,,
+D:/Sources/repos/SingleCycleProcessor/SingleCycleProcessor.srcs/sim_1/new/imem.sv,1648569602,systemVerilog,,D:/Sources/repos/SingleCycleProcessor/SingleCycleProcessor.srcs/sim_1/new/top.sv,,imem,,,,,,,,
+D:/Sources/repos/SingleCycleProcessor/SingleCycleProcessor.srcs/sim_1/new/testbench.sv,1648570075,systemVerilog,,,,testbench,,,,,,,,
+D:/Sources/repos/SingleCycleProcessor/SingleCycleProcessor.srcs/sim_1/new/top.sv,1648481901,systemVerilog,,D:/Sources/repos/SingleCycleProcessor/SingleCycleProcessor.srcs/sim_1/new/testbench.sv,,top,,,,,,,,
